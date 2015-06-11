@@ -1,0 +1,23 @@
+{
+    "name": "iamist/silex-boilerplate",
+    "description": "An application build with PHP lightweight framework SILEX.",
+    "authors": [
+        {
+            "name": "iamist",
+            "email": "vicentechristian@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Application\\" : "app\\src\\Application",
+            "Todo\\" : "app\\src\\Todo"
+        }
+    },
+    "require": {
+        "twig/twig": "^1.18",
+        "ziadoz/silex-capsule": "^1.2"
+    },
+    "require-dev": {
+        "silex/silex": "^1.2"
+    }
+}
